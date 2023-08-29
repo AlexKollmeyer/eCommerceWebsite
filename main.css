@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    padding: 1rem;
+    position:relative;
+}
+nav li{
+    display: inline;
+    margin-right: .5rem;
+}
+nav a{
+    text-decoration: none;
+}
+nav img{
+    color: chocolate;
+}
+.home {
+    background-image : url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+}
