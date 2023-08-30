@@ -8,18 +8,29 @@
 }
 header {
     padding: 1rem;
-    position:relative;
 }
-nav li{
-    display: inline;
-    margin-right: .5rem;
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+nav div{
+    display: flex;
+}
+nav items{
+    display: flex;
+    justify-content: space-evenly;
 }
 nav a{
     text-decoration: none;
 }
 nav img{
-    color: chocolate;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .home {
     background-image : url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size:contain;
 }
