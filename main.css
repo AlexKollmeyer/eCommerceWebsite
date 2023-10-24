@@ -1,36 +1,58 @@
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
-    padding: 1rem;
+  padding: 1rem;
 }
 
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
 }
-nav div{
-    display: flex;
+nav div {
+  display: flex;
 }
-nav items{
-    display: flex;
-    justify-content: space-evenly;
+.nav-items {
+  display: flex;
+  justify-content: space-around;
 }
-nav a{
-    text-decoration: none;
+nav a {
+  text-decoration: none;
 }
-nav img{
-    width: 1.5rem;
-    height: 1.5rem;
+nav img {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .home {
-    background-image : url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
-    background-size:contain;
+  background-image: linear-gradient(
+      90deg,
+      black 10%,
+      transparent 30%,
+      transparent 70%,
+      black 90%
+    ),
+    url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 18cm;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
